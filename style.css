@@ -284,7 +284,24 @@ span{
 .price:hover{
     letter-spacing: 1px;
 }
-
+@media screen and (max-width:99%) {
+    .home{
+        width: 90%;
+    }
+    .home-img img{
+        width: 90%;
+    
+    }
+    .row-img img{
+        width: 90%;
+    }
+    .row-img img{
+        width: 90%;
+    }
+    .contenu-footer{
+        width: 90%;
+    }
+}
 
 
 footer{
