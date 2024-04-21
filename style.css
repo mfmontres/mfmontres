@@ -110,7 +110,7 @@ section{
 }
 .home{
     height: 100vh;
-    width: 100%;
+    width: 1400px;;
     background-color: #000;
     background-size: cover;
     position: relative;
@@ -232,11 +232,11 @@ span{
   
 }
 .product{
-    width:100%
+    width:1500px;
 }
 
 .product-content{
-    width:100%;
+    width:1500px;;
     display: flex;
     grid-template-columns: repeat(auto-fit,minmax(200px , auto));
     gap: 2rem;
@@ -288,7 +288,7 @@ span{
 .price:hover{
     letter-spacing: 1px;
 }
-@media screen and (max-width:99%) {
+@media screen and (max-width:1499px) {
     .product{
         width:90%;
     }
@@ -299,19 +299,7 @@ span{
     .home{
         width: 90%;
     }
-    .home-img img{
-        width: 90%;
     
-    }
-    .row-img img{
-        width: 90%;
-    }
-    .row-img img{
-        width: 90%;
-    }
-    .contenu-footer{
-        width: 90%;
-    }
 }
 
 
