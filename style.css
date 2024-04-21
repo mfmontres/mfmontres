@@ -299,6 +299,9 @@ span{
     .home{
         width: 90%;
     }
+    .copyright{
+        width:90%;
+    }
     
 }
 
@@ -353,6 +356,9 @@ footer{
     display: flex;
     align-items: center;
     font-size: 25px;
+}
+.copyright{
+    width:1500px;
 }
 h5{
     text-align: center;
