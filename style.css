@@ -299,9 +299,7 @@ span{
     .home{
         width: 90%;
     }
-    .copyright{
-        width:90%;
-    }
+   
     
 }
 
@@ -357,9 +355,7 @@ footer{
     align-items: center;
     font-size: 25px;
 }
-.copyright{
-    width:1500px;
-}
+
 h5{
     text-align: center;
     height: 25px;
