@@ -231,8 +231,12 @@ span{
     letter-spacing: 1px;
   
 }
+.product{
+    width:100%
+}
 
 .product-content{
+    width:100%;
     display: flex;
     grid-template-columns: repeat(auto-fit,minmax(200px , auto));
     gap: 2rem;
@@ -285,6 +289,13 @@ span{
     letter-spacing: 1px;
 }
 @media screen and (max-width:99%) {
+    .product{
+        width:90%;
+    }
+    .product-content{
+        width:90%;
+    }
+    
     .home{
         width: 90%;
     }
